@@ -3,8 +3,11 @@
 #
 
 list(APPEND FLUTTER_PLUGIN_LIST
+<<<<<<< HEAD
+=======
   permission_handler_windows
   smart_auth
+>>>>>>> 54f30e55e2db4fbcb8ea3c5ebb8f39069abed74a
 )
 
 list(APPEND FLUTTER_FFI_PLUGIN_LIST

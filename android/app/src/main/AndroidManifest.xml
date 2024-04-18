@@ -1,6 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
     <application
-        android:label="smart_bin_flutter"
+        android:label="eco_bin_ai"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity

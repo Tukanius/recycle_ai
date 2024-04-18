@@ -1,4 +1,4 @@
-package com.example.smart_bin_flutter
+package com.example.eco_bin_ai
 
 import io.flutter.embedding.android.FlutterActivity
 
