@@ -3,7 +3,7 @@ import 'package:smart_bin_flutter/main.dart';
 import 'package:smart_bin_flutter/services/dialog.dart';
 
 import 'components/error_dialog.dart';
-import 'components/notification_dialog.dart';
+// import 'components/notification_dialog.dart';
 import 'components/success_dialog.dart';
 
 class DialogManager extends StatefulWidget {
@@ -24,9 +24,9 @@ class DialogManagerState extends State<DialogManager> {
         SuccessDialog(context: context, dialogService: dialogService).show);
     dialogService!.registerErrorDialogListener(
         ErrorDialog(context: context, dialogService: dialogService).show);
-    dialogService!.registerNotification(
-        NotificationDialog(context: context, dialogService: dialogService)
-            .show);
+    // dialogService!.registerNotification(
+    //     NotificationDialog(context: context, dialogService: dialogService)
+    //         .show);
   }
 
   BuildContext getContext() {

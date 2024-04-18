@@ -19,7 +19,7 @@ publish_to: "none" # Remove this line if you wish to publish to pub.dev
 version: 1.0.0+1
 
 environment:
-  sdk: ">=3.3.3 <4.0.0"
+  sdk: ">=3.3.0 <4.0.0"
 
 # Dependencies specify other packages that your package needs in order to work.
 # To automatically upgrade your package dependencies to the latest versions
@@ -30,28 +30,21 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  flutter_local_notifications: ^17.0.0
   get_it: ^7.6.7
   provider: ^6.1.2
   path_provider: ^2.1.2
-  another_flushbar: ^1.12.30
   flutter_svg: ^2.0.10+1
   after_layout: ^1.2.0
   flutter_form_builder: ^9.2.1
-  nfc_manager: ^3.4.0
   qr_code_scanner: ^1.0.1
-  camera: ^0.10.5+9
+  qr_flutter: ^4.1.0
   cookie_jar: ^4.0.8
   dio: ^5.4.1
   dio_cookie_manager: ^3.1.1
   shared_preferences: ^2.2.2
   lottie: ^3.1.0
-  intl: ^0.18.0
   permission_handler: ^11.3.0
-  qr_flutter: ^4.1.0
   pinput: ^4.0.0
-  fl_chart: ^0.67.0
-  flutter_secure_storage: ^9.0.0
   pull_to_refresh: ^2.0.0
   form_builder_validators: ^9.1.0
   # The following adds the Cupertino Icons font to your application.
